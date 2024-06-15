@@ -1,0 +1,132 @@
+/* src/components/Footer.css */
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-subscribe {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subscribe-button {
+  background-color: #2ac7a8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-social {
+  text-align: center;
+  flex: 1;
+}
+
+.social-icon {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-info {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-logo h2 {
+  color: #ff6600;
+  margin: 0;
+}
+
+.footer-logo p {
+  margin: 5px 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-address {
+  flex: 1;
+}
+
+.address,
+.contact {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.footer-contact {
+  flex: 1;
+  background-color: #ff6600;
+  color: white;
+  padding: 60px;
+  height: 300px;
+ 
+  border-radius: 7px;
+}
+
+
+.footer-contact h3 {
+  margin-top: 0;
+}
+
+.footer-contact p {
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.contact-form button {
+  background-color: #2ac7a8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+ 
